@@ -1,0 +1,55 @@
+.seccion{
+    border:2px solid black;
+    width:20%;
+    float:left;
+    margin-inline-start: 3%;
+    margin-inline-end: 1.5%;
+}
+.seccion img{
+    width:40%;
+    display: block;
+    margin:auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
+}
+.seccion h2{
+    color: #767179;
+    text-align: center;
+}
+.seccion button {
+    display: block;
+    color:#FFFFFF;
+    background: #767179;
+    margin:auto;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.seccion div {
+    display: block;
+    color: #000;
+    background: #FFFFFF;
+    border:1px solid black;
+    text-align: center;
+    width: 30%;
+    margin: auto;
+}
+footer{
+    clear:both;
+    text-align: center;
+    padding-top: 5%;
+    font-size: 200%;
+}
+
+footer div{
+    font-size: 50%;
+    color:#000;
+}
+
+.seccion p{
+    text-align:center;
+    font-size: 100%;
+    color:#000;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}

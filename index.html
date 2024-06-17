@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Cuarto Automatizado</title>
+        <meta charset="utf-8">   
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css"> 
+
+    </head>
+        <body style="background: #AAB7BB">
+            <header style="color:#0D1AA3;text-align:center">
+                <h1>Cuarto Automatizado</h1>
+            </header>
+            
+
+ 
+            <section class="seccion" style="background: #EB984E;"> 
+                <h2>
+                    Temperatura
+                </h2>
+                <div id="vtemperatura"> 
+                </div>        
+                <img src="https://www.tventas.com/5595965-large_default/calefactor-handy-heater.jpg" alt="">
+                <button id="temperatura">
+                </button>   
+            </section>
+                
+
+                
+            <section class="seccion" style="background: #DEE749;"> 
+                <h2>
+                    Luz
+                </h2>
+                <p>Distancia:</p>  
+                <div id="dluz">
+
+                </div>
+                       
+                <img src="https://curiosfera-historia.com/wp-content/uploads/historia-de-la-luz-el%C3%A9ctrica-1.jpg" alt="">
+                <button id="luz"> 
+                    
+                </button>
+            </section>
+                
+                
+                
+            <section class="seccion" style="background: #99F368;"> 
+                <h2>
+                    Puerta
+                </h2>       
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShyTw5gOdHd_JSJY9AMrE60BdK-yuUDGDJjg&usqp=CAU" alt="">
+                <button id="puerta"> 
+                    
+                </button>
+            </section>
+                
+                
+            <section class="seccion" style="background: #0CF6F4"> 
+                <h2>
+                    Ventana
+                </h2>      
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxvn72SQ5x7yKNGBIWZR5jgvM5miQPC6f4zw&usqp=CAU" alt="">
+                <button id="ventana"> 
+                    
+                </button>              
+            </section>
+      
+            <footer>
+                Autor
+
+                <div>Patrick Vera</div>
+                
+            </footer>
+                <script
+        src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous"></script>
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-app.js"></script>
+
+        <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-app.js"></script>
+
+        <!-- TODO: Add SDKs for Firebase products that you want to use
+            https://firebase.google.com/docs/web/setup#available-libraries -->
+            <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-auth.js"></script>
+            <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-database.js"></script>
+        
+            <script>
+            // Your web app's Firebase configuration
+                var firebaseConfig = {
+                  apiKey: "AIzaSyBgpv2_RPLg5cNjAeocKu1i5oPUIS49xIw",
+                  authDomain: "cuarto-pro.firebaseapp.com",
+                  databaseURL: "https://cuarto-pro-default-rtdb.firebaseio.com",
+                  projectId: "cuarto-pro",
+                  storageBucket: "cuarto-pro.appspot.com",
+                  messagingSenderId: "101572753901",
+                  appId: "1:101572753901:web:9bf6408576180a68360fe4"
+                };
+                // Initialize Firebase
+                firebase.initializeApp(firebaseConfig);
+            </script>
+        <script src="app.js"></script>
+        </body>     
+</html>
